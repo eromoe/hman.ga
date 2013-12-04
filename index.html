@@ -34,7 +34,13 @@ tagline: 工口manga赛高!
         <span class="date">{{ post.date }}</span>
       </p>
       <div class="content">
-        {{ post.content }}
+        <summary>{{ post.content | more: "excerpt" }}</summary>
+        <br>
+        <a href="{{ post.url }}" class="show_left_btn">进入查看全文。</a>
+
+<!-- 方法二，但是显示上会有问题，html 格式都消失了，完全以string 读入 并展示。 -->
+<!--             {{ post.content | strip_html | truncatewords:75}}<br>
+            <a href="{{ post.url }}">Read more...</a><br><br> -->
       </div>
     </div>
   {% endfor %}
