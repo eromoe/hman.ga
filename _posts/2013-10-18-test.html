@@ -1,0 +1,23 @@
+---
+layout: post
+category : test
+tagline: "Supporting tagline"
+tags : [test]
+title: 测试OK~~~4
+---
+{% include JB/setup %}
+
+<h2>主标题 tes</h2>
+<h3>继续看效果</h3>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<pre>
+  <span>狗狗狗狗狗狗狗狗</span>
+  <span>随时随地发送</span>
+  <img class="hide" src="http://imagenes.4ever.eu/data/674xX/animados/animados-y-de-fantasia/[imagenes.4ever.eu]%20hentai,%20anime,%20pecho%20154115.jpg">
+  <img class="hide" src="http://imagenes.4ever.eu/data/674xX/animados/animados-y-de-fantasia/[imagenes.4ever.eu]%20hentai,%20chica,%20anime,%20katana%20154120.jpg">
+</pre>

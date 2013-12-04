@@ -1,0 +1,20 @@
+---
+layout: category
+title: 动画
+header: 动画 header
+group: navigation
+weight: 1
+---
+{% include JB/setup %}
+
+{% for post in site.categories['动画']  %}
+  <div class="dark_panel">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="author">
+      <span class="date">{{ post.date }}</span>
+    </p>
+    <div class="content">
+      {{ post.content }}
+    </div>
+  </div>
+{% endfor %}
