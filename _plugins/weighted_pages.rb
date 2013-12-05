@@ -4,7 +4,7 @@
 
 module Jekyll
   
-  class WeightedPagesGenerator < Generator
+  class WeightedPagesGenerator < Jekyll::Generator
     safe true
 
     def generate(site)
