@@ -1,4 +1,6 @@
-var width = 270, height = 80; 
+var sidebar =document.querySelector('.sidebar');
+
+var width = sidebar.clientWidth, height = sidebar.clientHeight;
 // var width = 1000, height = 220; 
 
 var camera, scene, renderer;
@@ -426,7 +428,7 @@ function loop() {
 	var diffX, diffY, speed = 0.5; 
 	
 	
-	if(mouseDown && paintsite()){
+	if(mouseDown){
 		targetX = camera.position.x + ((mouseX - lastMouseX)*0.1); 
 		targetY = camera.position.y + ((mouseY - lastMouseY)*-0.1); 
 	
