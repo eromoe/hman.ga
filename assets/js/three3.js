@@ -1,4 +1,4 @@
-var width = 300, height = 110; 
+var width = 500, height = 180; 
 // var width = 1000, height = 220; 
 
 var camera, scene, renderer;
