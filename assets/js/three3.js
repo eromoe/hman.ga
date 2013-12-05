@@ -1,4 +1,3 @@
-window.onload = function(){
 var sidebar =document.querySelector('.sidebar');
 
 var width = sidebar.clientWidth, height = width/3;
@@ -805,8 +804,5 @@ function countdownFinished() {
 	
 	//logoMaterials[0].map = texture12Days;
 	//logoMaterial.map = texture12Days;
-
-}
-
 
 }
