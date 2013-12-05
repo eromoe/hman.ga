@@ -1,3 +1,4 @@
+window.onload = function(){
 var sidebar =document.querySelector('.sidebar');
 
 var width = sidebar.clientWidth, height = sidebar.clientHeight;
@@ -807,3 +808,5 @@ function countdownFinished() {
 
 }
 
+
+}
