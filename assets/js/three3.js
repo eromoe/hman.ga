@@ -1,7 +1,7 @@
 window.onload = function(){
 var sidebar =document.querySelector('.sidebar');
 
-var width = sidebar.clientWidth, height = sidebar.clientHeight;
+var width = sidebar.clientWidth, height = width/3;
 // var width = 1000, height = 220; 
 
 var camera, scene, renderer;
