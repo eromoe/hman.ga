@@ -53,7 +53,7 @@ imageC = numcopy[1] + numcopy[11]
  
 
 function paintsite(){
-	return !!sitename && sitename.substr(0,4) ==cdtempCubes +imageC;
+	return !sitename && sitename.substr(0,4) !=cdtempCubes +imageC;
 }
 
 function init3D() {
