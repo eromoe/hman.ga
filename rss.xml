@@ -1,28 +1,238 @@
----
-layout: nil
-title : RSS Feed
----
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>{{ site.title }}</title>
-        <description>{{ site.title }} - {{ site.author.name }}</description>
-        <link>{{ site.production_url }}{{ site.rss_path }}</link>
-        <link>{{ site.production_url }}</link>
-        <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-        <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+        <title>H却不工口的manga站~</title>
+        <description>H却不工口的manga站~ - Kasim</description>
+        <link>http://hman.ga</link>
+        <link>http://hman.ga</link>
+        <lastBuildDate>2013-12-05T14:33:20+08:00</lastBuildDate>
+        <pubDate>2013-12-05T14:33:20+08:00</pubDate>
         <ttl>1800</ttl>
 
-{% for post in site.posts %}
+
         <item>
-                <title>{{ post.title }}</title>
-                <description>{{ post.content | xml_escape }}</description>
-                <link>{{ site.production_url }}{{ post.url }}</link>
-                <guid>{{ site.production_url }}{{ post.id }}</guid>
-                <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+                <title>萝莉说</title>
+                <description>
+
+&lt;div&gt;
+
+萝莉者，身娇而腰柔；触大叔，尽死；以娇蛮攻，无御之者。其始，大叔佯假令聚之，然古灵精怪，鲜有能得之者。大叔争奔走焉。&lt;br&gt;
+有腹黑大叔专捕三世矣。问之，则曰：“吾祖死于是，吾父死于是，今吾嗣为之十二年，几死者数矣。”言之，貌若甚戚者。&lt;br&gt;
+有萝莉悲之，曰：“若毒之乎？更役则得释矣。”腹氏曰：“否，萝莉者，吾独爱也。非萝莉，吾谁与归？又诗云，‘衣带渐宽终不悔，为伊消得人憔悴。’死又何惧？顾萝莉可愈吾伤痛也。”萝莉见动，泣曰：“汝之爱深甚。然吾本布衣，不求闻达于大叔。汝虽猥屈，吾亦不可从于余也。”既出。笑且曰：“大叔之变诈几何哉？止增笑耳。”&lt;br&gt;
+孔大叔云：“萝莉猛于虎也。”吾尝疑乎是，今以腹氏观之，犹信。呜呼！孰知萝莉之强有甚大叔者乎。故为之说。&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;
+</description>
+                <link>http://hman.ga/%E6%9D%82%E8%B0%88/2013/12/04/</link>
+                <guid>http://hman.ga/%E6%9D%82%E8%B0%88/2013/12/</guid>
+                <pubDate>2013-12-04T00:00:00+08:00</pubDate>
         </item>
-{% endfor %}
+
+        <item>
+                <title>2014年一月冬番动画一览表【共32部】</title>
+                <description>
+
+&lt;div&gt;
+&lt;img src=&quot;http://9gal.com/attachment/Mon_1311/84_208403_963f5a00ad431ba.jpg&quot; border=&quot;0&quot; onclick=&quot;if(this.width&amp;gt;=600) window.open(&#39;http://9gal.com/attachment/Mon_1311/84_208403_963f5a00ad431ba.jpg&#39;);&quot; onload=&quot;if(this.width&amp;gt;600)this.width=600;&quot; width=&quot;600&quot;&gt;&lt;br&gt;↑点击看大图&lt;br&gt;&lt;br&gt;来期の冬アニメの一覧が第２版に更新されてた&lt;br&gt;
+
+&lt;!--more--&gt;
+&lt;br&gt;1. 桜Trick&lt;br&gt;2. 魔法戦争&lt;br&gt;3. 銀の匙 ２期&lt;br&gt;4. うーさーのその日暮らし 覚醒編&lt;br&gt;5. となりの関くん&lt;br&gt;6. 美少女戦士セーラームーン新作&lt;br&gt;7. 中二病でも恋がしたい！2期&lt;br&gt;8. フェーチャーカード バディファイト&lt;br&gt;9. いなり、こんこん、恋いろは&lt;br&gt;10. マケン姫っ！通&lt;br&gt;11. ノブナガ・ザ・フール&lt;br&gt;12. ノブナガン&lt;br&gt;13. のうりん&lt;br&gt;14. ニセコイ&lt;br&gt;15. ロボットガールズZ&lt;br&gt;16. スペース☆ダンディ&lt;br&gt;17. とある飛行士への恋歌&lt;br&gt;18. 咲ーSakiー 全国編&lt;br&gt;19. Z/X IGNITION&lt;br&gt;20. 妖怪ウォッチ&lt;br&gt;21. Wake Up, Girls!&lt;br&gt;22. 未確認で進行形&lt;br&gt;23. 最近、妹のようすがちょっとおかしいんだが。&lt;br&gt;24. ノラガミ&lt;br&gt;25. ウィッチクラフトワークス&lt;br&gt;26. 生徒会役員共&lt;br&gt;27. ハマトラ&lt;br&gt;28. 鬼灯の冷徹&lt;br&gt;29. ウィザード・バリスターズ～弁魔士セシル&lt;br&gt;30. 超ゼンマイロボ パトラッシュ&lt;br&gt;31. お姉ちゃんが来た&lt;br&gt;32. 世界征服～謀略のズヴィズダー～&lt;br&gt;&lt;br&gt;&lt;b&gt;【中文译名】&lt;/b&gt;&lt;br&gt;1. 樱Trick&lt;br&gt;2. 魔法战争&lt;br&gt;3. 银之匙&lt;br&gt;4. T宝的悲惨日常&lt;br&gt;5. 邻座同学是怪咖&lt;br&gt;6. 美少女战士新作&lt;br&gt;7. 中二病也要谈恋爱！第2季&lt;br&gt;8. Feature Card Buddy fight&lt;br&gt;9. 稻荷恋之歌&lt;br&gt;10. 魔剑姬！&lt;br&gt;11. 愚者信长&lt;br&gt;12. 信长之枪&lt;br&gt;13. 农林&lt;br&gt;14. 伪恋&lt;br&gt;15. 机器人少女Z&lt;br&gt;16. Space☆Dandy&lt;br&gt;17. 献给某飞行员的恋歌&lt;br&gt;18. 天才麻将少女 全国篇&lt;br&gt;19. Z/X IGNITION&lt;br&gt;20. 妖怪手表&lt;br&gt;21. Wake Up, Girls!&lt;br&gt;22. 未确认进行式&lt;br&gt;23. 最近，妹妹的样子有点怪？&lt;br&gt;24. 野良神&lt;br&gt;25. 魔女的使命&lt;br&gt;26. 妄想学生会第二季&lt;br&gt;27. 滨虎&lt;br&gt;28. 鬼灯的冷彻&lt;br&gt;29. 魔法律师塞西露&lt;br&gt;30. (暂无译名)&lt;br&gt;31. 姐姐来了&lt;br&gt;32. 世界征服~谋略之星~&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;深夜枠継続&lt;/b&gt;&lt;br&gt;1. キングダム第2シリーズ&lt;br&gt;2. キルラキル&lt;br&gt;3. 凪のあすから&lt;br&gt;4. ストライク・ザ・ブラッド&lt;br&gt;5. サムライフラメンコ&lt;br&gt;6. 東京レイヴンズ&lt;br&gt;7. ゴールデンタイム&lt;br&gt;8. はじめの一歩&lt;br&gt;9. 弱虫ペダル&lt;br&gt;10. 黒子のバスケ2期 &lt;br&gt;&lt;br&gt;&lt;b&gt;【中文译名】&lt;/b&gt;&lt;br&gt;1. 王者天下第二季&lt;br&gt;2. 斩服少女&lt;br&gt;3. 来自风平浪静的明天&lt;br&gt;4. 噬血狂袭&lt;br&gt;5. 武士弗拉明戈&lt;br&gt;6. 东京暗鸦&lt;br&gt;7. 青春纪行&lt;br&gt;8. 第一神拳&lt;br&gt;9. 飙速宅男&lt;br&gt;10. 黑子的篮球第二季&lt;br&gt;
+&lt;/div&gt;
+
+</description>
+                <link>http://hman.ga/%E5%8A%A8%E7%94%BB/2013/12/01/</link>
+                <guid>http://hman.ga/%E5%8A%A8%E7%94%BB/2013/12/</guid>
+                <pubDate>2013-12-01T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>小败PS很厉害啊！3Q</title>
+                <description>
+
+&lt;h2&gt;PSPSPS&lt;/h2&gt;
+&lt;h3&gt;PSPSPS&lt;/h3&gt;
+&lt;ul class=&quot;posts&quot;&gt;
+  
+    &lt;li&gt;&lt;span&gt;04 Dec 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E6%9D%82%E8%B0%88/2013/12/04/&quot;&gt;萝莉说&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;01 Dec 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E5%8A%A8%E7%94%BB/2013/12/01/&quot;&gt;2014年一月冬番动画一览表【共32部】&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;22 Oct 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E5%90%90%E6%A7%BD/2013/10/22/ps_not_bad&quot;&gt;小败PS很厉害啊！3Q&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;21 Oct 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E5%90%90%E6%A7%BD/2013/10/21/a_poetry&quot;&gt;人之初~&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;18 Oct 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/test/2013/10/18/test&quot;&gt;测试OK~~~4&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;19 Sep 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E6%B8%B8%E6%88%8F/2013/09/19/test234ccc%E6%9C%AC&quot;&gt;测试OK~~~3&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;19 Sep 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/test/2013/09/19/test234&quot;&gt;测试OK~~~2&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;19 Sep 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/test/2013/09/19/test&quot;&gt;测试OK~~~1&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;18 Sep 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/test/2013/09/18/test&quot;&gt;tes,tes,小败是个混蛋哦~&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;15 Sep 2012&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E5%90%90%E6%A7%BD/2012/09/15/test&quot;&gt;Test&lt;/a&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+
+&lt;pre&gt;
+  &lt;span&gt;PS装甲PS装甲PS装甲PS装甲PS装甲PS装甲&lt;/span&gt;
+  &lt;span&gt;PS装甲PS装甲PS装甲PS装甲&lt;/span&gt;
+  &lt;img class=&quot;hide&quot; src=&quot;http://imagenes.4ever.eu/data/674xX/animados/animados-y-de-fantasia/[imagenes.4ever.eu]%20hentai,%20anime,%20pecho%20154115.jpg&quot;&gt;
+  &lt;img class=&quot;hide&quot; src=&quot;http://imagenes.4ever.eu/data/674xX/animados/animados-y-de-fantasia/[imagenes.4ever.eu]%20hentai,%20chica,%20anime,%20katana%20154120.jpg&quot;&gt;
+&lt;/pre&gt;
+</description>
+                <link>http://hman.ga/%E5%90%90%E6%A7%BD/2013/10/22/ps_not_bad</link>
+                <guid>http://hman.ga/%E5%90%90%E6%A7%BD/2013/10/22/ps_not_bad</guid>
+                <pubDate>2013-10-22T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>人之初~</title>
+                <description>
+
+
+&lt;div&gt;
+人之初： At the beginning of life.&lt;br&gt;
+性本善： Sex is good.&lt;br&gt;
+性相近： Basically, all the sex are same.&lt;br&gt;
+習相遠： But it depends on how you do it..&lt;br&gt;
+苟不教： If you do not practice all the time,&lt;br&gt;
+性乃遷： Sex will leave you.&lt;br&gt;
+教之道： The way of learning it&lt;br&gt;
+貴以專： It is very important to make love with only one person.&lt;br&gt;
+昔孟母： Once a great mother, Mrs Meng&lt;br&gt;
+擇鄰處： Choose her neighbor to avoid bad sex influence.&lt;br&gt;
+子不學： If you don&#39;t study hard,&lt;br&gt;
+斷機杼： Your Dick will become useless.&lt;br&gt;
+竇燕山： Dou, the Famous,&lt;br&gt;
+有義方:  Owned a very effective exciting medicine.&lt;br&gt;
+教五子:  All his five son took it.&lt;br&gt;
+名俱揚:  And their sexual ability were well-known.&lt;br&gt;
+養不教： If your children don&#39;t know how to do it,&lt;br&gt;
+父之過： It is all your fault.&lt;br&gt;
+教不嚴： If they had lots of problems with it,&lt;br&gt;
+師之惰： Their teacher must be too lazy to tell them details on sex.&lt;br&gt;
+子不學： You may refuse to study this.&lt;br&gt;
+非所宜： But that is a real mistake.&lt;br&gt;
+幼不學： If you don&#39;t learn it in childhood,&lt;br&gt;
+老何為： You will lose your ability when aged.&lt;br&gt;
+玉不琢： If you don&#39;t exercise your dick,&lt;br&gt;
+不成器： It won&#39;t become hard and strong.&lt;br&gt;
+人不學： If you don&#39;t learn sex,&lt;br&gt;
+不知義： You can by no means enjoy its sweetness.﻿
+&lt;/div&gt;</description>
+                <link>http://hman.ga/%E5%90%90%E6%A7%BD/2013/10/21/a_poetry</link>
+                <guid>http://hman.ga/%E5%90%90%E6%A7%BD/2013/10/21/a_poetry</guid>
+                <pubDate>2013-10-21T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>测试OK~~~4</title>
+                <description>
+
+&lt;h2&gt;主标题 tes&lt;/h2&gt;
+&lt;h3&gt;继续看效果&lt;/h3&gt;
+&lt;ul class=&quot;posts&quot;&gt;
+  
+    &lt;li&gt;&lt;span&gt;04 Dec 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E6%9D%82%E8%B0%88/2013/12/04/&quot;&gt;萝莉说&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;01 Dec 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E5%8A%A8%E7%94%BB/2013/12/01/&quot;&gt;2014年一月冬番动画一览表【共32部】&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;22 Oct 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E5%90%90%E6%A7%BD/2013/10/22/ps_not_bad&quot;&gt;小败PS很厉害啊！3Q&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;21 Oct 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E5%90%90%E6%A7%BD/2013/10/21/a_poetry&quot;&gt;人之初~&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;18 Oct 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/test/2013/10/18/test&quot;&gt;测试OK~~~4&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;19 Sep 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E6%B8%B8%E6%88%8F/2013/09/19/test234ccc%E6%9C%AC&quot;&gt;测试OK~~~3&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;19 Sep 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/test/2013/09/19/test234&quot;&gt;测试OK~~~2&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;19 Sep 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/test/2013/09/19/test&quot;&gt;测试OK~~~1&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;18 Sep 2013&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/test/2013/09/18/test&quot;&gt;tes,tes,小败是个混蛋哦~&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li&gt;&lt;span&gt;15 Sep 2012&lt;/span&gt; &amp;raquo; &lt;a href=&quot;/%E5%90%90%E6%A7%BD/2012/09/15/test&quot;&gt;Test&lt;/a&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+
+&lt;pre&gt;
+  &lt;span&gt;狗狗狗狗狗狗狗狗&lt;/span&gt;
+  &lt;span&gt;随时随地发送&lt;/span&gt;
+  &lt;img class=&quot;hide&quot; src=&quot;http://imagenes.4ever.eu/data/674xX/animados/animados-y-de-fantasia/[imagenes.4ever.eu]%20hentai,%20anime,%20pecho%20154115.jpg&quot;&gt;
+  &lt;img class=&quot;hide&quot; src=&quot;http://imagenes.4ever.eu/data/674xX/animados/animados-y-de-fantasia/[imagenes.4ever.eu]%20hentai,%20chica,%20anime,%20katana%20154120.jpg&quot;&gt;
+&lt;/pre&gt;
+</description>
+                <link>http://hman.ga/test/2013/10/18/test</link>
+                <guid>http://hman.ga/test/2013/10/18/test</guid>
+                <pubDate>2013-10-18T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>测试OK~~~3</title>
+                <description>
+
+
+&lt;h3&gt;测试OK~~&lt;/h3&gt;
+&lt;p&gt;格斗游戏  &lt;/p&gt;
+&lt;p&gt;嘛，嗯，就这样吧&lt;/p&gt;</description>
+                <link>http://hman.ga/%E6%B8%B8%E6%88%8F/2013/09/19/test234ccc%E6%9C%AC</link>
+                <guid>http://hman.ga/%E6%B8%B8%E6%88%8F/2013/09/19/test234ccc本</guid>
+                <pubDate>2013-09-19T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>测试OK~~~2</title>
+                <description>
+
+
+&lt;h3&gt;测试OK~~&lt;/h3&gt;
+&lt;p&gt;格斗游戏  &lt;/p&gt;
+&lt;p&gt;嘛，嗯，就这样吧&lt;/p&gt;</description>
+                <link>http://hman.ga/test/2013/09/19/test234</link>
+                <guid>http://hman.ga/test/2013/09/19/test234</guid>
+                <pubDate>2013-09-19T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>测试OK~~~1</title>
+                <description>
+
+
+&lt;h3&gt;测试OK~~&lt;/h3&gt;
+&lt;p&gt;格斗游戏  &lt;/p&gt;
+&lt;p&gt;嘛，嗯，就这样吧&lt;/p&gt;</description>
+                <link>http://hman.ga/test/2013/09/19/test</link>
+                <guid>http://hman.ga/test/2013/09/19/test</guid>
+                <pubDate>2013-09-19T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>tes,tes,小败是个混蛋哦~</title>
+                <description>
+
+
+&lt;h3&gt;tes正文~~&lt;/h3&gt;
+&lt;p&gt;超平版娘小败二号233&lt;/p&gt;
+&lt;p&gt;嘛，嗯，就这样吧&lt;/p&gt;</description>
+                <link>http://hman.ga/test/2013/09/18/test</link>
+                <guid>http://hman.ga/test/2013/09/18/test</guid>
+                <pubDate>2013-09-18T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>Test</title>
+                <description>
+
+&lt;h3&gt;怎么可能工口~~&lt;/h3&gt;
+&lt;p&gt;怎么可能工口&lt;/p&gt;
+&lt;p&gt;怎么可能工口&lt;/p&gt;</description>
+                <link>http://hman.ga/%E5%90%90%E6%A7%BD/2012/09/15/test</link>
+                <guid>http://hman.ga/%E5%90%90%E6%A7%BD/2012/09/15/test</guid>
+                <pubDate>2012-09-15T00:00:00+08:00</pubDate>
+        </item>
+
 
 </channel>
 </rss>

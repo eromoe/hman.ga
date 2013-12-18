@@ -1,20 +1,446 @@
----
-layout: page
-title: 漫画
-header: 漫画header
-group: navigation
-weight: 2
----
-{% include JB/setup %}
 
-{% for post in site.categories['漫画']  %}
-  <div class="dark_panel">
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="author">
-      <span class="date">{{ post.date }}</span>
-    </p>
-    <div class="content">
-      {{ post.content }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>漫画</title>
+    
+    <meta name="author" content="Kasim">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/img/favicon.ico" type="image/x-icon" rel=icon>
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/bootstrap/css/darkstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+<!-- 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+ -->
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container_main">
+          <a class="brand" href="/">H却不工口的manga站~</a>
+<!--           <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/animate.html">动画</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="active"><a href="/manga.html" class="active">漫画</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/game.html">游戏</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/word.html">吐槽</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">档案</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories_list.html">分类列表</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul> -->
+          <ul class="nav">
+            <li><a href="/">首页</a></li>
+            <li><a href="/animate.html">动画</a></li>
+            <li><a href="/manga.html">漫画</a></li>
+            <li><a href="/game.html">游戏</a></li>
+            <li><a href="/word.html">游戏</a></li>
+            <li><a href="/archive.html">档案</a></li>
+            <li><a href="/categories_list.html">分类列表</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-{% endfor %}
+
+    <div class="container_main">
+      <div class="banner">
+        <h1>Welcome to the dark side in no world!</h1>
+      </div>
+      <div class="row-fluid">
+        <div class="content span9">
+          
+<div class="dark_panel">
+	<div class="page-header">
+	  <h2>漫画 </h2>
+	</div>
+
+	<div class="row-fluid">
+	  <div class="span12">
+	    
+
+
+
+	  </div>
+	</div>
+</div>
+
+        </div>
+        <div class="sidebar span3">
+          <div id="cubeclock"></div>
+<!--           <div class="dark_panel">
+            <h3>标签列表</h3>
+            <ul class="JB_tags">
+                
+              
+
+
+  
+     
+    	<li><a href="/tags.html#intro-ref">intro <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#test-ref">test <span>6</span></a></li>
+     
+    	<li><a href="/tags.html#吐槽-ref">吐槽 <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#新番-ref">新番 <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#动画-ref">动画 <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#杂谈-ref">杂谈 <span>1</span></a></li>
+    
+  
+
+
+
+            </ul>
+          </div> -->
+          <div class="dark_panel">
+            <h3><a href="">标签</a></h3>
+            <ul class="tag_box inline">
+                
+              
+
+
+  
+     
+    	<li><a href="/tags.html#intro-ref">intro <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#test-ref">test <span>6</span></a></li>
+     
+    	<li><a href="/tags.html#吐槽-ref">吐槽 <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#新番-ref">新番 <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#动画-ref">动画 <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#杂谈-ref">杂谈 <span>1</span></a></li>
+    
+  
+
+
+
+            </ul>
+          </div>
+<!--           <div class="dark_panel">
+            <h3>分类</h3>
+            <ul>
+                
+              
+
+
+  
+     
+    	<li><a href="/categories.html#吐槽-ref">
+    		吐槽 <span>3</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#test-ref">
+    		test <span>4</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#游戏-ref">
+    		游戏 <span>1</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#动画-ref">
+    		动画 <span>1</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#杂谈-ref">
+    		杂谈 <span>1</span>
+    	</a></li>
+    
+  
+
+
+            </ul>
+          </div> -->
+
+          <div class="archeive_panel dark_panel">
+            <h3>归档</h3>
+            
+            
+
+
+  
+  
+  
+  
+
+  
+    <h4>2013 December</h4>
+    <ul class="archive_month">
+  
+
+  <li class="archive_day"><span> 4</span> &raquo; <a href="/%E6%9D%82%E8%B0%88/2013/12/04/">萝莉说</a></li>
+
+  
+        
+      
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span> 1</span> &raquo; <a href="/%E5%8A%A8%E7%94%BB/2013/12/01/">2014年一月冬番动画一览表【共32部】</a></li>
+
+  
+        
+      
+        </ul>
+        <h4>2013 October</h4>
+        <ul class="archive_month" month="October">
+      
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span>22</span> &raquo; <a href="/%E5%90%90%E6%A7%BD/2013/10/22/ps_not_bad">小败PS很厉害啊！3Q</a></li>
+
+  
+        
+      
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span>21</span> &raquo; <a href="/%E5%90%90%E6%A7%BD/2013/10/21/a_poetry">人之初~</a></li>
+
+  
+        
+      
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span>18</span> &raquo; <a href="/test/2013/10/18/test">测试OK~~~4</a></li>
+
+  
+        
+      
+        </ul>
+        <h4>2013 September</h4>
+        <ul class="archive_month" month="September">
+      
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span>19</span> &raquo; <a href="/%E6%B8%B8%E6%88%8F/2013/09/19/test234ccc%E6%9C%AC">测试OK~~~3</a></li>
+
+  
+        
+      
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span>19</span> &raquo; <a href="/test/2013/09/19/test234">测试OK~~~2</a></li>
+
+  
+        
+      
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span>19</span> &raquo; <a href="/test/2013/09/19/test">测试OK~~~1</a></li>
+
+  
+        
+      
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span>18</span> &raquo; <a href="/test/2013/09/18/test">tes,tes,小败是个混蛋哦~</a></li>
+
+  
+    
+      </ul>
+      <h4>2012 September</h4>
+      <ul>
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  <li class="archive_day"><span>15</span> &raquo; <a href="/%E5%90%90%E6%A7%BD/2012/09/15/test">Test</a></li>
+
+  
+    </ul>
+  
+
+
+          </div>
+
+
+        </div>
+      </div>
+     
+      <div class="footer text-center">
+        <p>&copy; 2013
+          <span>&nbsp;作者:</span> Kasim
+          <span>&nbsp;吐槽：</span>这怎么可能不是一个正常的网站？？
+        </p>
+      </div>
+
+    </div>
+    <script type="text/javascript" src="assets/js/three.js"></script>
+    <script type="text/javascript" src="assets/js/three2.js"></script>
+    
+  </body>
+</html>
+
